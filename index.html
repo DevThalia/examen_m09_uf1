@@ -31,15 +31,15 @@
         </section>
         <!-- Información del festival -->
         <section class="info">
+            <p>Fecha: 13 Diciembre 2025</p>
+            <p>Ubicacion: Netherlands</p>
             <p>Thunderdome es un concepto famoso en la música hardcore-techno y gabber que se utilizó principalmente
                 para una serie de fiestas y CDs recopilatorios. Fue organizado por la compañía de entretenimiento
                 holandesa ID & T. La primera fiesta se organizó en 1992 y la fiesta celebrada en diciembre de 2012 se
                 anunció como el final de Thunderdome.</p>
-
-            <p>Fecha: 01/01/2021</p>
-            <p>Lugar: Montmelò (Barcelona) </p>
             <!-- Lista de géneros -->
             <ul>
+                <p>Géneros</p>
                 <li>Gabber</li>
                 <li>Uptempo</li>
                 <li>Hardcore</li>
@@ -47,38 +47,41 @@
             </ul>
         </section>
         <!-- Galería de artistas -->
-        <section class="artistas">
+        <section class="seccion-galeria">
             <h2>Artistas</h2>
-            <div class="artista">
-                <img src="./img/madDog.jpg" alt="Artista1">
-                <p>Mad Dog</p>
-            </div>
-            <div class="artista">
-                <img src="./img/Korsakoff.jpg" alt="Artista2">
-                <p>Korsakoff</p>
-            </div>
-            <div class="artista">
-                <img src="./img/Radium.JPG" alt="Artista3">
-                <p>Radium</p>
-            </div>
-            <div class="artista">
-                <img src="./img/ophidian.jpg" alt="Artista4">
-                <p>Ophidian</p>
-            </div><div class="artista">
-                <img src="./img/NoizeSurpresor.jpg" alt="Artista4">
-                <p></p>
+            <div class="galeria">
+                <div class="artista">
+                    <img src="./img/madDog.jpg" alt="Artista1">
+                    <p>Mad Dog</p>
+                </div>
+                <div class="artista">
+                    <img src="./img/Korsakoff.jpg" alt="Artista2">
+                    <p>Korsakoff</p>
+                </div>
+                <div class="artista">
+                    <img src="./img/Radium.JPG" alt="Artista3">
+                    <p>Radium</p>
+                </div>
+                <div class="artista">
+                    <img src="./img/ophidian.jpg" alt="Artista4">
+                    <p>Ophidian</p>
+                </div>
+                <div class="artista">
+                    <img src="./img/NoizeSurpresor.jpg" alt="Artista4">
+                    <p>Noize Surpresor</p>
+                </div>
             </div>
         </section>
 
         <!-- Multimedia -->
         <section class="video">
-            <h2>Video</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/1w7OgIMMRc4" frameborder="0"
+            <h2>Aftermovie oficial 2024</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=24KuEoo66yU" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </section>
         <section class="reproductor">
-            <h2>Reproductor</h2>
+            <h2>SoundCloud oficial</h2>
             <audio controls>
                 <source src="audio.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
@@ -95,17 +98,28 @@
                 <input type="email" name="email" id="email" required>
                 <label for="mensaje">Mensaje:</label>
                 <textarea name="mensaje" id="mensaje" required></textarea>
-                <input type="submit" value="Enviar">
+                <button>Enviar</button>
             </form>
     </main>
     <!-- Footer: contiene información de contacto (email-tlf-redes sociales) y copyright -->
+
     <footer>
-        <div class="contacto">
-            <p>Email: </p>
-            <p>Teléfono: </p>
-            <p>Redes sociales: </p>
+        <address>
+            <a href="mailto:webmaster@example.com">Correo</a><br>
+            Visit us at:<br>
+            Thunderdome.com<br>
+            Países bajos<br>
+        </address>
+        <!-- íconos redes sociales -->
+        <div class="redes">
+            <a href="#"><img src="img/facebook.png" alt="facebook"></a>
+            <a href="#"><img src="img/instagram.jpeg" alt="instagram"></a>
+            <a href="#"><img src="img/x.png" alt="twitter"></a>
         </div>
-        <p>&copy; 2020 Festival</p>
+        <p>&copy; Todos los derechos reservados</p>
+
+    </footer>
+
 </body>
 
 </html>
